@@ -5,7 +5,8 @@ body {
 }
 
 body {
-	font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-image: url("image/polku.jpg");
 }
 
 a {
@@ -154,7 +155,7 @@ section h2 {
 }
 
 @media (min-width: 992px) {
-//  #mainNav {
+ #mainNav {
     border-color: transparent;
     background-color: transparent;
   }
@@ -446,24 +447,37 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-primary.dropdown-toggle:focus {
   box-shadow: none;
+} 
 
 .bg-polku {
-  background:url("image/polku.jpg")
+  background:url(../image/polku.jpg);
 
-    /* Full height */
-    height: 100%;
+  /* Full height */
+  height: 100%;
 
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
 .bg-puu {
-  background:url("image/puu.jpg")
+  background:url(../image/puu.jpg);
+  
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.view {
-  height: 100%;
+.strokeme
+{
+  color: black;
+   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
 }
