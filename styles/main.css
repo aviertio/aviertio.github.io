@@ -6,7 +6,6 @@ body {
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  background-image: url("image/polku.jpg");
 }
 
 a {
@@ -202,23 +201,12 @@ header.masthead {
 }
 
 header.masthead .header-content {
-  max-width: 500px;
-  margin-bottom: 100px;
+  max-width: 400px;
+  margin-top: 0px;
   text-align: center;
 }
-
 header.masthead .header-content h1 {
   font-size: 30px;
-}
-
-header.masthead .device-container {
-  max-width: 325px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-header.masthead .device-container .screen img {
-  border-radius: 3px;
 }
 
 @media (min-width: 992px) {
@@ -229,6 +217,7 @@ header.masthead .device-container .screen img {
     padding-bottom: 0;
   }
   header.masthead .header-content {
+    max-width: 600px;
     margin-bottom: 0;
     text-align: left;
   }
@@ -450,7 +439,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 } 
 
 .bg-polku {
-  background:url(../image/polku.jpg);
+  background:url(../image/polkuBIG.jpg);
 
   /* Full height */
   height: 100%;
@@ -461,9 +450,15 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   background-size: cover;
 }
 
+@media (max-width:600px) {
+  .bg-polku {
+    background:url(../image/polkuSMALL.jpg);
+  }
+}
+
 
 .bg-puu {
-  background:url(../image/puu.jpg);
+  background:url(../image/puuBIG.jpg);
   
   /* Full height */
   height: 100%;
