@@ -203,7 +203,7 @@ header.masthead {
 header.masthead .header-content {
   max-width: 400px;
   margin-top: 0px;
-  text-align: center;
+  text-align: left;
 }
 header.masthead .header-content h1 {
   font-size: 30px;
@@ -453,6 +453,14 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 @media (max-width:600px) {
   .bg-polku {
     background:url(../image/polkuSMALL.jpg);
+
+      /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
