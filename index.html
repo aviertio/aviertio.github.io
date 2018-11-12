@@ -37,9 +37,12 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#Tulevaisuus" style="color:black">Kestävä tulevaisuus</a>
+              </li>
+          <!-- <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#Koulutus" style="color:black">Koulutus</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#Sopeudu_muutokseen"  style="color:black">Sopeudu muutokseen</a>
           </li>
@@ -71,7 +74,64 @@
   </div>
   </header>
 
-  <section class="features bg-primary" id="Koulutus">
+  <section class="features bg-primary" id="Tulevaisuus">
+      <div class="container text-center" style="color:white">
+          <div class="section-heading">
+              <h2>Kestävä tulevaisuus</h2>
+            </div>
+            <div class="accordion" id="accordionExample">
+            <button  type="button" class="btn btn-link" data-toggle="collapse" data-target="#Näkökulma">
+                <h3>Näkökulma</h3>
+              </button>
+              <br><br>
+              <div class="collapse show" id="Näkökulma" data-parent="#accordionExample">
+                <p>
+                    Ihminen on yksi eliölaji, osa luonnon monimuotoisuutta. Ihmisen erityispiirteet ovat mahdollistaneet lajimme menestyksen ja ne voivat myös pelastaa meidät ympäristökatastrofilta. Jos ymmärrämme oman roolimme ekosysteemin osana, voimme saavuttaa kestävän tulevaisuuden.
+                </p>
+              </div>
+
+              <button  type="button" class="btn btn-link" data-toggle="collapse" data-target="#Ongelma">
+                  <h3>Ongelma</h3>
+                </button>
+                <br><br>
+                <div class="collapse" id="Ongelma" data-parent="#accordionExample">
+                  <p>
+                      Emme ole ymmärtäneet teollisena aikana, että luonnon resurssit ovat rajallisia ja kertakäyttöisyyden sijaan ne ovat kierrätettäviä. Olemme kehittäneet kiehtovan yhteiskunnan ja edistynyttä teknologiaa, mutta samalla unohtaneet miten elää ympäristön ehdoilla ja ekosysteemiä tukien. Nyt olemme saaneet aikaan globaaleja muutoksia, jotka ravistelevat kulttuurimme ja olemassaolomme perustaa: ilmastonmuutoksen ja monimuotoisuuden kadon.
+                  </p>
+                </div>
+                <button  type="button" class="btn btn-link" data-toggle="collapse" data-target="#Visio">
+                    <h3>Visio</h3>
+                  </button>
+                  <br><br>
+                  <div class="collapse" id="Visio" data-parent="#accordionExample">
+                    <p>
+                        Olen vakuuttunut, että seuraavina vuosina ja vuosikymmeninä ihmiskunta kehittää keinot asettua eheyttäväksi osaksi luonnon ekosysteemiä. Heikentämisen sijaan opimme edistämään ekosysteemin vakautta ja resilienssiä. Tämä tuo meille uuden menestyksen aikakauden ja rauhaa kansainvälisiin suhteisiin. Korjaamme toiminnallisen yhteytemme ympäröivään maailmaan huolehtimalla loppuun saakka tuottamistamme yhdisteistä ja käyttämistämme ekosysteemipalveluista. Uskon, että tämä tuleva elämäntapa tekee meistä myös rauhallisempia yksilöitä, sillä saavutamme voimakkaamman suhteen ympäristöömme ja se tuo elämäämme merkityksellisyyttä.                    </p>
+                  </div>
+                  <button  type="button" class="btn btn-link" data-toggle="collapse" data-target="#Tavoitteeni">
+                      <h3>Tavoitteeni</h3>
+                    </button>
+                    <br><br>
+                    <div class="collapse" id="Tavoitteeni" data-parent="#accordionExample">
+                      <p>
+                          Vaikuttajana ja kouluttajana minulla on kaksi tavoitetta:<br><br>
+ 
+                        Toimia välittäjänä ja tulkkina ympäristöasiantuntijoiden ja talouden ammattilaisten välillä.<br>
+                          Luoda toivoa siitä, että kestävä elämäntapa ja toimintatapa voidaan saavuttaa.
+                                                </p>
+                    </div>
+                    <button  type="button" class="btn btn-link" data-toggle="collapse" data-target="#Käytännössä">
+                        <h3>Käytännössä</h3>
+                      </button>
+                      <br><br>
+                      <div class="collapse" id="Käytännössä" data-parent="#accordionExample">
+                        <p>
+                            Pidän eri alojen ammattilaisille suunnattuja ilmasto- ja ympäristökoulutuksia. Tunnistan tiedon, jota asiakkaani tarvitsevat tehdäkseen heille hyödyllisiä ja ympäristölle edullisia ratkaisuja, ja välitän sen pähkinänkuoressa. Jos organisaatiosi tarvitsee kick-offia ilmastostrategiaan, ideoita ympäristöystävällisiin tuotteisiin tai apua oman ekolokeron löytämiseen ympäristötietoisessa maailmassa, <a href="#Yhteystiedot" style="color:white">otathan yhteyttä.   </a>                     </p>
+                      </div>
+    </div>
+  </div>
+  </section>
+
+  <!-- <section class="features bg-primary" id="Koulutus">
     <div class="container text-center" style="color:white">
       <div class="section-heading">
         <h2>Koulutus</h2>
@@ -104,7 +164,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <section class="features" id="Sopeudu_muutokseen">
     <div class="container text-center">
@@ -161,6 +221,26 @@
           mukaan.
         </p>
       </div>
+      <button class="btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#Hyödyt">
+          <h5>Hyödyt asiakkaalle</h5>
+        </button>
+        <br><br>
+        <div class="collapse" id="Hyödyt">
+          <p>
+              Työvälineitä ilmastonmuutoksen käsittelyyn:<br>
+              1. Asiakkaalle olennainen, asiantuntijoiden tuottama ilmastotieto ytimekkäänä pakettina<br>
+              2. Jäsentelypolkuja ilmastonmuutoksen seurausten liittämiseksi omaan työarkeen<br>
+              3. Apua kestävän tulevaisuuden tuomien mahdollisuuksien ja löytämiseen<br>
+              4. Vaikuttamiskeinojen tunnistamista omalla alalla ja omassa työssä<br>
+              <br>
+              Motivaatiota/tekemisen iloa työntekijöille:<br>
+              1. Tukea työyhteisön vuorovaikutukseen<br>
+              2. Inspiraatiota luonnon ekosysteemien toiminnasta<br>
+              3. Luovuuden ja ideoinnin edistämistä työyhteisössä
+              
+              
+          </p>
+        </div>
     </div>
   </section>
 
