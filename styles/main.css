@@ -10,7 +10,7 @@ body {
 
 :root {
   --main-color: #26532b; 
-  --hover-color: #2fcc3f; 
+  --hover-color: #499F6C; 
   --gradient-color: #265338; 
 }
 
@@ -22,7 +22,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: #2fcc3f;
+  color: #499F6C;
   box-shadow: 0px 2px;
   text-decoration: none;
 }
@@ -66,7 +66,7 @@ p {
 }
 
 .fab:hover {
-    color:#2fcc3f;
+    color:#499F6C;
     width: 80px;
     box-shadow: 0px 0px;
 }
@@ -302,7 +302,7 @@ section.contact h2 {
 }
 
 section.contact h2 i {
-  color: #2fcc3f;
+  color: #499F6C;
 }
 
 section.contact ul.list-social {
