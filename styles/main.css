@@ -431,7 +431,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 } 
 
 .bg-polku {
-  background:url(../image/polkuBIG.jpg);
+  background:url(../image/polku1280.jpg);
 
   /* Full height */
   height: 100%;
@@ -458,7 +458,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 
 .bg-puu {
-  background:url(../image/puuBIG.jpg);
+  background:url(../image/puu1280.jpg);
   
   /* Full height */
   height: 100%;
@@ -467,6 +467,26 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media (min-width:1281px){
+  .bg-puu {
+    background:url(../image/puu1920.jpg);
+  }
+  .bg-polku {
+    background:url(../image/polku1920.jpg);
+  }
+
+}
+
+@media (min-width:1921px){
+  .bg-puu {
+    background:url(../image/puu2560.jpg);
+  }
+  .bg-polku {
+    background:url(../image/polku2560.jpg);
+  }
+
 }
 
 .strokeme
