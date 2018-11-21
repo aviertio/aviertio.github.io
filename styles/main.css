@@ -430,8 +430,57 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   box-shadow: none;
 } 
 
+
+.btn-secondary {
+  color: #fff;
+  background-color: #499F6C;
+  border-color: #26532b;
+}
+
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #26532b;
+  border-color: #26532b;
+}
+
+.btn-secondary:active {
+  color: #fff;
+  background-color: #26532b;
+  border-color: #26532b;  
+}
+
+.btn-secondary:active:focus {
+  color: #fff;
+  background-color: #26532b;
+  border-color: #26532b; 
+}
+
+
+.btn-secondary:focus, .btn-secondary.focus {
+  color: #fff;
+  box-shadow: none;
+}
+
+.btn-secondary.disabled, .btn-secondary:disabled {
+  color: #fff;
+  background-color: #499F6C;
+  border-color: #499F6C;
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active,
+.show > .btn-secondary.dropdown-toggle {
+  color: #fff;
+  background-color: #499F6C;
+  border-color: #499F6C;
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-secondary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+
 .bg-polku {
-  background:url(../image/polku1280.jpg);
+  background:url(../images/polku1280.jpg);
 
   /* Full height */
   height: 100%;
@@ -444,7 +493,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 @media (max-width:600px) {
   .bg-polku {
-    background:url(../image/polkuSMALL.jpg);
+    background:url(../images/polkuSMALL.jpg);
 
       /* Full height */
     height: 100%;
@@ -458,7 +507,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 
 .bg-puu {
-  background:url(../image/puu1280.jpg);
+  background:url(../images/puu1280.jpg);
   
   /* Full height */
   height: 100%;
@@ -471,7 +520,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 @media (min-width:1281px){
   .bg-puu {
-    background:url(../image/puu1920.jpg);
+    background:url(../images/puu1920.jpg);
   /* Full height */
   height: 100%;
 
@@ -482,7 +531,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
     
   }
   .bg-polku {
-    background:url(../image/polku1920.jpg);
+    background:url(../images/polku1920.jpg);
       /* Full height */
   height: 100%;
 
@@ -496,7 +545,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 @media (min-width:1921px){
   .bg-puu {
-    background:url(../image/puu2560.jpg);
+    background:url(../images/puu2560.jpg);
       /* Full height */
   height: 100%;
 
@@ -506,7 +555,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   background-size: cover;
   }
   .bg-polku {
-    background:url(../image/polku2560.jpg);
+    background:url(../images/polku2560.jpg);
       /* Full height */
   height: 100%;
 
